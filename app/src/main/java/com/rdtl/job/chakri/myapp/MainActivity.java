@@ -56,13 +56,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.id_random:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new Fragment3()).commit();
+                        new NoticeFragment()).commit();
                 break;
             case R.id.id_contact:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.id_about:
-                Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new Aboutfragment()).commit();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);

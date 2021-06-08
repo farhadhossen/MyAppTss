@@ -1,11 +1,19 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">Telephone Shilpa Sangstha Limited(TSS)</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="des">Notice /Office order\nTSS-News-Corner\nNOC Transfer\nForeign Travel\nPromotion</string>
+
+
+    <string name="des">Telephone Shilpa Sangstha (TSS) Ltd. was initially established in the year 1967 with the nomenclature of “Telephone Industries Corporation” under a joint venture agreement between the then Government of Pakistan and M/S Siemens AG, West Germany.
+
+    \n\nAfter the independence, Father of the Nation Bangabandhu Sheikh Mujibur Rahman formed the Telephone Industries Corporation named “Telephone Shilpa Sangstha Limited (TSS)” on 24/04 1973 with the idea of ​​far-reaching development. TSS is gratefully remembering Bangabandhu Sheikh Mujibur Rahman, the best Bengali of all time.
+
+    \n\nunder the Companies Act, 1913, and under a fresh agreement with the other part of the joint venture M/S Siemens AG, West Germany in the year 24/04/1973.
+
+    \n\nIn the post-independence period, TSS was producing and setting up EMD telephone exchanges, analog PABX, fax machines, DP / CT boxes, cabinets, telephone sets to meet the demand of the country’s telephone sector. After the brutal assassination of Bangabandhu in 1975, that progress was not only hampered, TSS gradually turned into a sick industry. From there, TSS has been transformed into a digital device  manufacturing / integration company by participating in the “Digital Bangladesh” building program of Hon’ble Prime Minister Sheikh Hasina, the dreamer and architect of Digital Bangladesh in 2006. The Honorable Prime Minister inaugurated the DOEL brand TSS Laptop at the Bangabandhu International Conference Center on 11 October 2011. The beginning is the entry of TSS in the digital sector. One by one,  DOEL brand desktops, notebooks, tabs, biometric devices, multimedia projectors, sound boxes, smart pre-paid energy meters and other digital devices have been added to TSS product line.</string>
 
     <string-array name="product_list">
         <item>Laptop &#38; Desktop</item>
