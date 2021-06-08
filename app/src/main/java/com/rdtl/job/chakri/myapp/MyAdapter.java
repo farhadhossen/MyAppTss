@@ -51,7 +51,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             public void onClick(View v) {
 
                 String pvl = ""+data1[position];
-                Toast.makeText(context, ""+pvl, Toast.LENGTH_SHORT).show();
+
 
 
 

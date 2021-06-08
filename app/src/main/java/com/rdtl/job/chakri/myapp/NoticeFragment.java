@@ -68,7 +68,6 @@ public class NoticeFragment extends Fragment {
         Listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                  Toast.makeText( getContext(), List[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
                 Intent in2 = new Intent(getContext(),BrowsingActivity.class);
                 in2.putExtra("epuzzle", NoticeURL[i]);
