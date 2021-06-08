@@ -60,45 +60,45 @@ public class Fragment1 extends Fragment {
 
     ListView DashListView, DashListView2,DashListView3,DashListView4,DashListView5,DashListView6,DashListView7,DashListView8,DashListView9;
     String Dash1List[] = {"Notice/Office order", "TSS-News-Corner","NOC" , "Transfer","Foreign Travel", "Promotion"};
-    String Dash1URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/","https://www.google.com/","https://www.facebook.com/"};
+    String Dash1URL [] = {"https://tss.com.bd/tss-old19/Office_order.html","https://tss.com.bd/tss-old19/TSS_News_Corner.html",
+            "https://tss.com.bd/tss-old19/NOC.html","https://tss.com.bd/tss-old19/Transfer.html","https://tss.com.bd/tss-old19/Foreign_Travel.html","https://tss.com.bd/tss-old19/promotion.html"};
 
     String Dash2List[] = {"Annual action Plan ", "Quarterly implementation progress","Committee" , "Best Practice Guideline"};
-    String Dash2URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash2URL [] = {"https://tss.com.bd/tss-old19/Action_Plan.html","https://tss.com.bd/tss-old19/NIS_Meeting_Minutes.html",
+            "https://tss.com.bd/tss-old19/NIS_Committee.html","https://tss.com.bd/tss-old19/Best_Practice_Guideline.html"};
 
 
     String Dash3List[] = {"Service Commitment", "Focal Point Officer/","Monitoring Committee " , "Laws / Rules / Policies / Circulars / Guidelines / Notifications"};
-    String Dash3URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash3URL [] = {"https://tss.com.bd/tss-old19/citizen_charter.html","https://tss.com.bd/tss-old19/Chitizen_Chartered_2020_1.pdf",
+            "https://tss.com.bd/tss-old19/CITIZEN_!.pdf","https://tss.com.bd/tss-old19/2020-10-20-14-53-23d7.pdf"};
 
 
     String Dash4List[] = {"APA Guidelines/Circulars/APA Team", "Agreements","Monitoring and evaluation report Quarterly implementation progress" , "APAMS software link"};
-    String Dash4URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash4URL [] = {"https://tss.com.bd/tss-old19/APA_Contract_and_Focal%20Point.html","https://tss.com.bd/tss-old19/APA_new_report.html",
+            "https://tss.com.bd/tss-old19/APA_quarterly_report.html","https://apams.cabinet.gov.bd/"};
 
     String Dash5List[] = {"Innovation Focal Point", "Innovation Team","Committee Meeting Minutes" , "Action plan, Report & Various"};
-    String Dash5URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash5URL [] = {"https://tss.com.bd/tss-old19/Innovation_Focal_Poin.html","https://tss.com.bd/tss-old19/Innovation_Team.html",
+            "https://tss.com.bd/tss-old19/Innovation_Meeting_Minutes.html","https://tss.com.bd/tss-old19/Action_plan_Report.html"};
 
 
     String Dash6List[] = {"GRS Officer", "Online Application","Law, Act & Policy" , "GonoSunani"};
-    String Dash6URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash6URL [] = {"https://tss.com.bd/tss-old19/GRS-1.html","http://www.grs.gov.bd/",
+            "https://ptd.gov.bd/site/page/da7eb0f5-824a-4e3e-995b-571529dbbde2/Law,-Act-&-Policy--","https://tss.com.bd/tss-old19/GonoSunani1.html"};
 
     String Dash7List[] = {"Acts/Rules/Committee/Guidelines", "Designated Officer","Application & Appeal Forms" , "Self-motivated information"};
-    String Dash7URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash7URL [] = {"https://cabinet.gov.bd/site/page/ae04a3e9-918b-4632-8929-b06713c7a3f8/Acts-Rules-Committee-Guidelines","https://tss.com.bd/tss-old19/Designated%20Officer_Rit.html",
+            "https://tss.com.bd/tss-old19/Application_&_Appeal_Forms_rit.html","https://tss.com.bd/tss-old19/Self_motivated_information.html"};
 
 
     String Dash8List[] = {"Tender (Local &  International)", "EOI","RFQ "};
-    String Dash8URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/"};
+    String Dash8URL [] = {"https://tss.com.bd/tss-old19/RFQ-4.html","https://tss.com.bd/tss-old19/RFQ-4.html",
+            "https://tss.com.bd/tss-old19/RFQ-4.html"};
 
 
     String Dash9List[] = {"Annual Report", "Welfare officer ","E-Nothi", "Telecommunications Act."};
-    String Dash9URL [] = {"https://www.google.com/","https://www.facebook.com/",
-            "https://www.google.com/","https://www.facebook.com/"};
+    String Dash9URL [] = {"https://tss.com.bd/tss-old19/Anual_Report.html","https://tss.com.bd/tss-old19/Welfareofficer.html",
+            "https://www.nothi.gov.bd/","https://tss.com.bd/tss-old19/telecommunication_act.html"};
 
 
 
@@ -166,8 +166,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash1URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash1URL[i]);
 
                 startActivity(in2);
 
@@ -189,8 +189,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash2URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash2URL[i]);
 
                 startActivity(in2);
 
@@ -213,8 +213,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash3URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash3URL[i]);
 
                 startActivity(in2);
 
@@ -239,8 +239,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash4URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash4URL[i]);
 
                 startActivity(in2);
 
@@ -264,8 +264,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash5URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash5URL[i]);
 
                 startActivity(in2);
 
@@ -289,8 +289,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash6URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash6URL[i]);
 
                 startActivity(in2);
 
@@ -314,8 +314,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash7URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash7URL[i]);
 
                 startActivity(in2);
 
@@ -339,8 +339,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash8URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash8URL[i]);
 
                 startActivity(in2);
 
@@ -364,8 +364,8 @@ public class Fragment1 extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //  Toast.makeText( getContext(), Dash1URL[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-                Intent in2 = new Intent(getContext(),HomeBrowserActivity.class);
-                in2.putExtra("epuzzle2", Dash9URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", Dash9URL[i]);
 
                 startActivity(in2);
 

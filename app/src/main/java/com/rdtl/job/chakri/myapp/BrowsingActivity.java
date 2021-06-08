@@ -92,6 +92,8 @@ public class BrowsingActivity extends AppCompatActivity {
         }else if (easyPuzzle.equals("Transmission Equipment")){
             webView.loadUrl("https://tss.com.bd/tss-old19/product-page-grid-master/Transmission.html");
 
+        }else {
+            webView.loadUrl(""+easyPuzzle);
         }
 
     }
