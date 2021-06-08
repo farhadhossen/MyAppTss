@@ -49,8 +49,9 @@ public class NoticeFragment extends Fragment {
     ListView Listview;
 
     String List[] = {"NOC", "Ex-Bangladesh Leave","Office Order","Transfer","Promotion","Tender / EOI/RFQ"};
-    String Dash8URL [] = {"https://tss.com.bd/tss-old19/RFQ-4.html","https://tss.com.bd/tss-old19/RFQ-4.html",
-            "https://tss.com.bd/tss-old19/RFQ-4.html"};
+    String NoticeURL [] = {"https://tss.com.bd/tss-old19/NOC.html","https://tss.com.bd/tss-old19/Foreign_Travel.html",
+            "https://tss.com.bd/tss-old19/Office_order.html", "https://tss.com.bd/tss-old19/Transfer.html",
+    "https://tss.com.bd/tss-old19/promotion.html", "https://tss.com.bd/tss-old19/RFQ-4.html"};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -69,10 +70,10 @@ public class NoticeFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                   Toast.makeText( getContext(), List[i]+ " is selected",Toast.LENGTH_SHORT).show();
 
-            /*    Intent in2 = new Intent(getContext(),BrowsingActivity.class);
-              //  in2.putExtra("epuzzle", Dash1URL[i]);
+                Intent in2 = new Intent(getContext(),BrowsingActivity.class);
+                in2.putExtra("epuzzle", NoticeURL[i]);
 
-                startActivity(in2);*/
+                startActivity(in2);
 
 
 
