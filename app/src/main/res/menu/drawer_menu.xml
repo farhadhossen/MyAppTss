@@ -12,6 +12,10 @@
             android:icon="@drawable/product"
             android:title="Products" />
         <item
+            android:id="@+id/id_product2"
+            android:icon="@drawable/product"
+            android:title="Products2" />
+        <item
             android:id="@+id/id_random"
             android:icon="@drawable/random"
             android:title="News &#38; Notice" />

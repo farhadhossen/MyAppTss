@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tssTitles">
+        <item>Doel i7 laptop</item>
+        <item>Doel i5 laptop</item>
+        <item>Doel i3 laptop</item>
+        <item>Doel Freedom QN-42</item>
+        <item>Doel 18GB Pendrive</item>
+        <item>TSS-Panasonic KX-TSC-880MX</item>
+        <item>Panasonic KX-T7705</item>
+        <item>Panasonic KX-TSC60SX</item>
+        <item>Doel TV</item>
+        <item>TSS PBX System</item>
+        <item>TSS Steno set 00221 Model</item>
+        <item>TSS carel PABX 2090</item>
+    </string-array>
+</resources>

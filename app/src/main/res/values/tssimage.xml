@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tssImages">
+        <item>  https://tss.com.bd/tss-old19/picture1/3.jpg </item>
+        <item> https://www.tss.com.bd/wp-content/uploads/2019/01/g-300x222.jpg     </item>
+        <item> https://tss.com.bd/tss-old19/picture1/11.jpg </item>
+        <item> https://www.tss.com.bd/wp-content/uploads/2019/01/edit-2-300x222.jpg </item>
+        <item>https://tss.com.bd/tss-old19/picture1/Pendrive_PNG2.png</item>
+        <item>https://tss.com.bd/tss-old19/picture1/TSS_Panasonic_KX_TS880MX3.png</item>
+        <item>https://tss.com.bd/tss-old19/picture1/T7705.png</item>
+        <item>  https://tss.com.bd/tss-old19/picture1/Panasonic KX-TSC60SX2.png</item>
+        <item>https://tss.com.bd/tss-old19/picture1/DOEL_TV.png</item>
+        <item>https://tss.com.bd/tss-old19/picture1/TSS_PBX.png</item>
+        <item>https://tss.com.bd/tss-old19/picture1/4.jpg</item>
+        <item>https://tss.com.bd/tss-old19/picture1/1.jpg</item>
+    </string-array>
+</resources>
