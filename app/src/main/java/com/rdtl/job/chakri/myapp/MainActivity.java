@@ -36,28 +36,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new Fragment1()).commit();
-            navigationView.setCheckedItem(R.id.nav_message);
+            navigationView.setCheckedItem(R.id.id_home);
         }
     }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.nav_message:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new Fragment2()).commit();
-                break;
-            case R.id.nav_chat:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new Fragment3()).commit();
-                break;
-            case R.id.nav_profile:
+            case R.id.id_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Fragment1()).commit();
                 break;
-            case R.id.nav_share:
+            case R.id.id_product:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new Fragment3()).commit();
+                break;
+            case R.id.id_random:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new Fragment3()).commit();
+                break;
+            case R.id.id_contact:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_send:
+            case R.id.id_about:
                 Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();
                 break;
         }

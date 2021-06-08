@@ -68,7 +68,7 @@ public class Fragment1 extends Fragment {
             "https://tss.com.bd/tss-old19/NIS_Committee.html","https://tss.com.bd/tss-old19/Best_Practice_Guideline.html"};
 
 
-    String Dash3List[] = {"Service Commitment", "Focal Point Officer/","Monitoring Committee " , "Laws / Rules / Policies / Circulars / Guidelines / Notifications"};
+    String Dash3List[] = {"Service Commitment", "Focal Point Officer/","Monitoring Committee " , "Laws / Rules / Policies / Circulars / Guidelines / Notifications "};
     String Dash3URL [] = {"https://tss.com.bd/tss-old19/citizen_charter.html","https://tss.com.bd/tss-old19/Chitizen_Chartered_2020_1.pdf",
             "https://tss.com.bd/tss-old19/CITIZEN_!.pdf","https://tss.com.bd/tss-old19/2020-10-20-14-53-23d7.pdf"};
 

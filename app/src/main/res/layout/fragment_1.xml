@@ -184,7 +184,7 @@
 
             <TextView
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:gravity="center"
                 android:text="TSS DASH BOARD"
