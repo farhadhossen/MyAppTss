@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="des">Notice /Office order\nTSS-News-Corner\nNOC Transfer\nForeign Travel\nPromotion</string>
+
+    <string-array name="product_list">
+        <item>Laptop</item>
+        <item>Desktop</item>
+        <item>Mobile</item>
+    </string-array>
+
+    <string-array name="product_des">
+        <item>Laptop des</item>
+        <item>Desktop des</item>
+        <item>Mobile des</item>
+    </string-array>
+
+</resources>
