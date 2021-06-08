@@ -49,8 +49,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.mainlayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "hi", Toast.LENGTH_SHORT).show();
+
+                String pvl = ""+data1[position];
+                Toast.makeText(context, ""+pvl, Toast.LENGTH_SHORT).show();
+
+
+
                 Intent in = new Intent(context,BrowsingActivity.class);
+                in.putExtra("epuzzle", pvl);
+
                 context.startActivity(in);
             }
         });
