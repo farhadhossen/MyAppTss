@@ -46,10 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Fragment1()).commit();
                 break;
-            case R.id.id_product:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new Fragment3()).commit();
-                break;
+           
             case R.id.id_product2:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ProductTwoFragment()).commit();

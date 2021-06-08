@@ -7,14 +7,11 @@
             android:id="@+id/id_home"
             android:icon="@drawable/home"
             android:title="Home" />
-        <item
-            android:id="@+id/id_product"
-            android:icon="@drawable/product"
-            android:title="Products" />
+
         <item
             android:id="@+id/id_product2"
             android:icon="@drawable/product"
-            android:title="Products2" />
+            android:title="Products" />
         <item
             android:id="@+id/id_random"
             android:icon="@drawable/random"

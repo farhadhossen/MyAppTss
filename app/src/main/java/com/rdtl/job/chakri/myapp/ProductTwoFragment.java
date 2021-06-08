@@ -18,7 +18,11 @@ import android.view.ViewGroup;
 public class ProductTwoFragment extends Fragment {
 
     String s1[], s2[];
-    int images[] = {R.drawable.laptop, R.drawable.desktop, R.drawable.mobile};
+    int images[] = {R.drawable.img_one, R.drawable.img_two, R.drawable.img_three,
+    R.drawable.img_four, R.drawable.img_five, R.drawable.img_six, R.drawable.img_seven,
+            R.drawable.img_eight, R.drawable.img_nine, R.drawable.img_ten, R.drawable.img_eleven,
+            R.drawable.img_twelve, R.drawable.img_thirty, R.drawable.img_forty, R.drawable.img_fifty,
+            R.drawable.img_sixty, R.drawable.img_seventy, R.drawable.img_eighty};
     RecyclerView recyclerView;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -71,8 +75,8 @@ public class ProductTwoFragment extends Fragment {
 
 
 
-        s1 = getResources().getStringArray(R.array.product_list);
-        s2 = getResources().getStringArray(R.array.product_des);
+        s1 = getResources().getStringArray(R.array.product_two_list);
+        s2 = getResources().getStringArray(R.array.product_two_des);
 
         MyAdapter myAdapter = new MyAdapter(getContext(), s1, s2, images);
         recyclerView.setAdapter(myAdapter);

@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp"
         android:usesCleartextTraffic="true">
+        <activity android:name=".DetailsActivity"></activity>
         <activity android:name=".HomeBrowserActivity" />
         <activity android:name=".BrowsingActivity" />
         <activity android:name=".MainActivity">

@@ -55,8 +55,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
 
 
-                Intent in = new Intent(context,BrowsingActivity.class);
-                in.putExtra("epuzzle", pvl);
+                Intent in = new Intent(context,DetailsActivity.class);
+                in.putExtra("epuzzle", ""+position);
 
                 context.startActivity(in);
             }

@@ -27,4 +27,48 @@
         <item>Mobile des</item>
     </string-array>
 
+    <string-array name="product_two_list">
+        <item>Meter One</item>
+        <item>TSS PBX System</item>
+        <item>Laptop</item>
+        <item>Laptop 2</item>
+        <item>Laptop 2</item>
+        <item>Telephone</item>
+        <item>Telephone 2</item>
+        <item>Computer</item>
+        <item>Smart Tv</item>
+        <item>Finger print scanner</item>
+        <item>Finger print scanner</item>
+        <item>Mouse</item>
+        <item>Telephone 3</item>
+        <item>Card Scanner</item>
+        <item>Projector</item>
+        <item>Fiber Machine</item>
+        <item>Telephone 4</item>
+        <item>Telephone 5</item>
+        <item>Telephone 6</item>
+    </string-array>
+
+    <string-array name="product_two_des">
+        <item>Electric Meter</item>
+        <item>TSS Steno set 0025 commotion was over Louisa Ellis also</item>
+        <item>Transmission Equipment</item>
+        <item>Electric Meter</item>
+        <item>TSS Steno set 0025 commotion was over Louisa Ellis also</item>
+        <item>Transmission Equipment</item>
+        <item>Electric Meter</item>
+        <item>TSS Steno set 0025 commotion was over Louisa Ellis also</item>
+        <item>Transmission Equipment</item>
+        <item>Electric Meter</item>
+        <item>TSS Steno set 0025 commotion was over Louisa Ellis also</item>
+        <item>Transmission Equipment</item>
+        <item>Electric Meter</item>
+        <item>TSS Steno set 0025 commotion was over Louisa Ellis also</item>
+        <item>Transmission Equipment</item>
+        <item>Electric Meter</item>
+        <item>TSS Steno set 0025 commotion was over Louisa Ellis also</item>
+        <item>Transmission Equipment</item>
+    </string-array>
+
+
 </resources>
