@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragment1"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white2">
 
 
 
@@ -214,8 +215,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash1"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -263,8 +264,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash2"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -311,8 +312,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash3"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -359,8 +360,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash4"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -407,8 +408,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash5"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -455,8 +456,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash6"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -503,8 +504,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash7"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -551,8 +552,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash8"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
@@ -599,8 +600,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:background="@drawable/dash9"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
 
 
 
