@@ -1,6 +1,7 @@
 package com.rdtl.job.chakri.myapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,6 +50,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, "hi", Toast.LENGTH_SHORT).show();
+                Intent in = new Intent(context,BrowsingActivity.class);
+                context.startActivity(in);
             }
         });
 
