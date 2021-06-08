@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsFragment"
+    android:orientation="vertical"
+    android:background="#F9FFF1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#030F2F"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:gravity="">
+
+        <LinearLayout
+            android:id="@+id/idFax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/fax"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fax: (+88-02) 9812700"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/idCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_baseline_call_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(+88-02) 9814747, 9812755"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_baseline_email_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mdtss@tss.com.bd "
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

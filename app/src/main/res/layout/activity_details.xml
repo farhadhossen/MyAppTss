@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:text="Laptop"
             android:layout_gravity="center"
-            android:textSize="50dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             />
 

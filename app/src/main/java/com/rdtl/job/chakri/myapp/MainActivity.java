@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new NoticeFragment()).commit();
                 break;
             case R.id.id_contact:
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new ContactUsFragment()).commit();
                 break;
             case R.id.id_about:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
