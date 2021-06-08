@@ -3,19 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ContactUsFragment"
     android:orientation="vertical"
-    android:background="#F9FFF1">
+    android:background="#F9F8ED"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contact Us"
-        android:layout_gravity="center"
-        android:textSize="40sp"
-        android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        android:textColor="#030F2F"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/nature"></LinearLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Contact Us"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="40sp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#030F2F"/>-->
+
+
+
 
 
     <LinearLayout
@@ -24,77 +35,170 @@
         android:orientation="vertical"
         android:padding="20dp"
         android:layout_gravity="center"
-        android:gravity="">
+        >
 
-        <LinearLayout
-            android:id="@+id/idFax"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            android:elevation="5dp"
             android:padding="10dp">
 
-            <ImageView
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/fax"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fax: (+88-02) 9812700"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="30dp"
-                android:textSize="25sp"/>
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fax:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/idFax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/fax"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(+88-02) 9812700"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="25sp"/>
 
 
-        </LinearLayout>
+                </LinearLayout>
 
 
-        <LinearLayout
-            android:id="@+id/idCall"
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            android:elevation="5dp"
+            >
 
-            <ImageView
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/ic_baseline_call_24"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="(+88-02) 9814747, 9812755"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="30dp"
-                android:textSize="25sp"/>
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Call:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/idCall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_call_24"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(+88-02) 9814747, 9812755"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="25sp"/>
 
 
-        </LinearLayout>
+                </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/idMail"
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp">
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            android:elevation="5dp"
+            >
 
-            <ImageView
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/ic_baseline_email_24"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="mdtss@tss.com.bd "
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="30dp"
-                android:textSize="25sp"/>
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/idMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_email_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mdtss@tss.com.bd "
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="25sp"/>
 
 
-        </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
 
 
     </LinearLayout>
