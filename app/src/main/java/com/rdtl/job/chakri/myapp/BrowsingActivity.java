@@ -2,15 +2,22 @@ package com.rdtl.job.chakri.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 
 public class BrowsingActivity extends AppCompatActivity {
 
 
     WebView webView;
+
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +26,7 @@ public class BrowsingActivity extends AppCompatActivity {
 
 
         webView = findViewById(R.id.idWebView);
+        imageView = findViewById(R.id.idImageView);
 
         Intent intent = getIntent();
         String easyPuzzle = intent.getExtras().getString("epuzzle");
@@ -28,12 +36,11 @@ public class BrowsingActivity extends AppCompatActivity {
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
 
-//Working code
-//        javascript:(function(){
-//            document.getElementById('username').value='MyUsername';
-//            document.getElementById('password').value='MyPassword';
-//            document.forms.loginForma.submit.click();
-//        })();
+        if (isNetworkAvailable(getApplicationContext())){
+            imageView.setVisibility(View.GONE);
+            webView.setVisibility(View.VISIBLE);
+        }
+
 
 
         webView.setWebViewClient(new WebViewClient(){
@@ -47,15 +54,27 @@ public class BrowsingActivity extends AppCompatActivity {
 
 
                 String script4 = "document. getElementById(\"site-header-inner\"). style. display = \"none\";";
-                String script5 = "document.getElementsByClassName(\"page-header\"). style. display = \"none\";";
-
-                String sc = "\"javascript:(function() { \" \n" +
-                        "                    document.getElementsByClassName('lpage-header').style.display='none'; \" \n" +
-                        "                    \"})()\"";
-
-                String sc2 = "document.getElementsByClassName('lpage-header')[0].style.display='none'";
 
                 webView.evaluateJavascript(script4,null);
+
+
+                if (isNetworkAvailable(getApplicationContext())){
+                    imageView.setVisibility(View.GONE);
+                    webView.setVisibility(View.VISIBLE);
+                }
+
+
+
+            }
+
+            @Override
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                super.onReceivedError(view, errorCode, description, failingUrl);
+
+
+                    imageView.setVisibility(View.VISIBLE);
+                    webView.setVisibility(View.GONE);
+
 
 
             }
@@ -75,5 +94,23 @@ public class BrowsingActivity extends AppCompatActivity {
 
         }
 
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        // Check if the key event was the Back button and if there's history
+        if ((keyCode == KeyEvent.KEYCODE_BACK) && webView.canGoBack()) {
+            webView.goBack();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
+    public static boolean isNetworkAvailable(Context context) {
+        ConnectivityManager conMan = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if(conMan.getActiveNetworkInfo() != null && conMan.getActiveNetworkInfo().isConnected())
+            return true;
+        else
+            return false;
     }
 }
